@@ -8,6 +8,7 @@ Course responsibles and instructors: Prof. Meredith C. Schuman, Dr. Johannes Sch
 - Computational thinking review
 - Python review
 - Version control
+- Data acquisition
 - Data wrangling
 - Data analysis and interpretation
 - Current topics in chemical data science
