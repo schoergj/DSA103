@@ -14,7 +14,7 @@ Course responsibles and instructors: Prof. Meredith C. Schuman, Dr. Johannes Sch
 - Current topics in chemical data science
 
 # Authors and acknowledgments
-Many thanks to Marvin A. Alberts for helping with the exercises! 
+Many thanks to Marvin Alberts for helping with the exercises! 
 
 # License
 CC BY-NC-SA
