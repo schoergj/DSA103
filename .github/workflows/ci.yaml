@@ -1,4 +1,4 @@
-name: "Running tests: style, mypy, pytest"
+name: "Running tests: style, pytest"
 
 on: [push, pull_request]
 
