@@ -1,5 +1,6 @@
-import pandas as pd
 from typing import Any
+
+import pandas as pd
 
 
 def calculate_reaction_rates(df: pd.DataFrame):

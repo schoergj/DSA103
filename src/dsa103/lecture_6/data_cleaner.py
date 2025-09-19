@@ -1,5 +1,7 @@
 from pathlib import Path
+
 import pandas as pd
+
 
 def load_and_clean_setup_data(filepath: Path, setup_name: str):
     """Load and standardize data from one setup"""
