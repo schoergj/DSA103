@@ -12,6 +12,7 @@ dependencies = [
     "pre-commit>=4.0.1",
     "ruff>=0.7.4",
     "rdkit>=2025.3.6",
+    "pytest>=8.3.5",
 ]
 
 [tool.setuptools]
