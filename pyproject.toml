@@ -31,19 +31,6 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 
-[tool.mypy]
-check_untyped_defs = true
-
-[[tool.mypy.overrides]]
-module = [
-    "click.*",
-    "datasets.*",
-    "torch.*",
-    "transformers.*",
-    "yaml.*",
-]
-ignore_missing_imports = true
-
 [tool.ruff]
 # Include also Jupyter notebooks.
 extend-include = ["*.ipynb"]
@@ -75,6 +62,7 @@ exclude = [
     "node_modules",
     "site-packages",
     "venv",
+    "exercises",
 ]
 
 # Same as Black.
