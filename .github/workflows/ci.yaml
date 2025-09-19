@@ -21,4 +21,4 @@ jobs:
     - name: Check style
       run: uv run ruff check .
     - name: Run pytests
-      run: uv run pytest -sv --cov=dsa103 tests
+      run: uv run pytest -sv tests
