@@ -51,7 +51,7 @@ For research, GitHub Actions provides several key benefits:
 - GitHub account created
 - uv installed:
     - Linux/Mac: `curl -LsSf https://astral.sh/uv/install.sh | sh`
-    - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex`
+    - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
 
 
 ### Instructions
