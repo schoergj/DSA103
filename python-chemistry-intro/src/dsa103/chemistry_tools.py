@@ -10,3 +10,12 @@ def calculate_molecular_formula(smiles: str) -> float:
         raise ValueError("Invalid Smiles string. Could not parse molecule.")
     
     return rdMolDescriptors.CalcMolFormula(mol)
+
+def calculate_molecular_weight(molecule: str) -> float:
+    """Calculates the molecular weight for a given molecule."""
+    mol = Chem.MolFromSmiles(molecule)
+
+    if mol is None:
+        raise ValueError("Invalid Smiles string. Could not parse molecule.")
+    
+    return rdMolDescriptors.CalcExactMolWt(mol)
