@@ -5,8 +5,9 @@ You have seen EDA in practice. Now, your task is to write a script doing the EDA
 ## Goals
 
 - Apply your data analysis skills from the Iris dataset to a new dataset — the Wine dataset from scikit-learn.
-- Write a Python script (wine_eda.py) that performs a complete exploratory data analysis (EDA). Use the template provided here in this folder.
+- Write a Python script (wine_eda.py) that performs a complete exploratory data analysis (EDA). You can use the template provided in the scripts folder (https://github.com/schoergj/DSA103/tree/main/python-chemistry-intro/scripts) or in your cloned fork ;)
 - Make sure that the scripts has an organised structure and features clear comments. It should provide console output for the summary stats and save pictures of the plots.
+- Make sure to push your work to your Repository
 
 ## Dataset
 
