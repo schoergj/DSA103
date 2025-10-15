@@ -1,0 +1,24 @@
+name: "Running tests: style, pytest"
+
+on: [push, pull_request]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    name: Style, mypy, pytest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.12
+    - name: Install uv
+      run: pip install uv
+    - name: Make Virtual Environment
+      run: uv venv .venv
+    - name: Install Dependencies
+      run: uv pip install -e .
+    - name: Check style
+      run: uv run ruff check .
+    - name: Run pytests
+      run: uv run pytest -sv tests
