@@ -13,6 +13,10 @@ Course responsibles and instructors: Prof. Meredith C. Schuman, Dr. Johannes Sch
 - Data analysis and interpretation
 - Current topics in chemical data science
 
+# Instructions for setting up an environment for course materials
+This can be found in the README file accompanying the "EDA" (Exploratory Data Analysis) section (EDA-Lectures-7-8).
+This README file will also walk you through how to structure your repository and materials for the course.
+
 # Authors and acknowledgments
 Many thanks to Marvin Alberts for helping with the exercises! 
 
