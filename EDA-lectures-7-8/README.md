@@ -26,9 +26,9 @@ By using a linter like `ruff`, you can catch many issues before your code is eve
 ### What are GitHub Actions?
 GitHub Actions is a continuous integration and continuous deployment (CI/CD) platform that allows you to automate workflows directly in your GitHub repository. When specific events occur (like pushing code or creating a pull request), GitHub Actions can automatically:
 
-**Run automated tests**: Execute your test suite to ensure new changes don't break existing functionality
-**Check code quality**: Run linters like ruff to enforce coding standards
-**Perform security scans**: Check for vulnerabilities in dependencies
+- **Run automated tests**: Execute your test suite to ensure new changes don't break existing functionality
+- **Check code quality**: Run linters like ruff to enforce coding standards
+- **Perform security scans**: Check for vulnerabilities in dependencies
 
 For research, GitHub Actions provides several key benefits:
 - **Reproducibility**: Every code change is tested in a clean, consistent environment
