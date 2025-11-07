@@ -1,0 +1,11 @@
+Patient_ID,Visit Date,age,Gender,Blood Pressure (mmHg),Chol (mg_dl),glucose,Notes
+P001,2021-01-03,34.0,Male,120/80,180.0,95,baseline
+P002,2021/1/05,45.0,FEMALE,135/90,210.0,n/a,-
+P003,03-01-2021,29.0,male,115/75,190.0,88,recheck
+p004,2021.01.04,52.0,F,140/95,220.0,missing,new patient
+P005,2021-01-06,33.0,M,118/78,185.0,89,repeat
+P006,2021-01-06,33.0,M,118/78,185.0,89,repeat
+P007,2021/01/07,,Male,125/82,200.0,ninety,typo in glucose
+P008,2021-01-08,46.0,Female,130/85,195.0,100,baseline
+P009,2021-01-09,50.0,female,128/84,,92,-
+P010,2021-01-10,41.0,MALE,132/88,210.0,97,follow-up
