@@ -1,8 +1,8 @@
-from flask import Flask, request, jsonify
-import json
 import time
+
 import click
 import pandas as pd
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 FORWARD_MODEL_DATA = dict()
@@ -77,13 +77,13 @@ def reset_stats():
 @click.option("--rxn-file", type=click.Path(exists=True), required=True)
 def main(rxn_file: str):
 
+    """Main, reads mock reaction data and starts flask server."""
+
     # Load the forward model predictions from JSON
     global FORWARD_MODEL_DATA
     rxn_fwd = pd.read_json(rxn_file)
     for i in range(len(rxn_fwd)):
         FORWARD_MODEL_DATA[rxn_fwd['reactants'].iloc[i]] = rxn_fwd['predicted_product'].iloc[i]
-    
-
 
     print("Starting Mock Forward Model API...")
     print("Available endpoints:")
