@@ -18,7 +18,7 @@ This can be found in the README file accompanying the "EDA" (Exploratory Data An
 This README file will also walk you through how to structure your repository and materials for the course.
 
 # Authors and acknowledgments
-Many thanks to Marvin Alberts for helping with the exercises! 
+Many thanks to Marvin Alberts and Alexander Steppke for helping with the exercises! 
 
 # License
 CC BY-NC-SA
