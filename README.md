@@ -2,20 +2,10 @@
 
 Repository for the course DSA103 Advanced Chemical Data Science. All course material will be shared here, wheras OLAT will only be used for all course-related communication.
 
-Instructors and persons responsible for the course: Prof. Meredith C. Schuman, Dr. Johannes Schörgenhumer
+Instructors and persons responsible for the course: Prof. Meredith C. Schuman (meredithchristine.schuman@uzh.ch), Dr. Johannes Schörgenhumer (johannes.schoergenhumer@chem.uzh.ch)
 
-Teaching assistant: Dimitrios Xynos
+Teaching assistant: Dimitrios Xynos (dimitrios.xynos@chem.uzh.ch)
 
-
-## Course content
-
-- Computational thinking review
-- Python review
-- Version control
-- Data acquisition
-- Data wrangling
-- Data analysis and interpretation
-- Current topics in chemical data science
 
 ## Prerequisites
 Throughout this course, you will need your personal computer, please bring it to every session. You will use several tools, which have to be installed on your PC (if you have done the DSA101, you might already know some of them). We highly recommend to have your computer set up appropriately before the first lecture:
