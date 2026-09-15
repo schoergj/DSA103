@@ -66,7 +66,7 @@ Lecture slot:
 28) Exam
 
 ## Authors
-This repository was created and is maintained by Merry Schuman and Johannes Schörgenhumer.
+This repository was created and is maintained by Johannes Schörgenhumer and Meredith C. (Merry) Schuman.
 
 ## Acknowledgements
 
