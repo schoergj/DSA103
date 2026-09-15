@@ -33,7 +33,8 @@ We do recommend to practice the git workflow throughout this course and to commi
 
 ## Course structure
 Every week comprises two lecture slots on Wednesdays (odd numbers) and Fridays (even numbers).
-Homework assignments will be introduced and discussed on Fridays (even slots) and there will be the opportunity to discuss and get input on homework assignments on Wednesdays (odd slots).
+
+Homework assignments will be introduced and reviewed on Fridays (even slots) and there will be the opportunity to discuss and get input on homework assignments on Wednesdays (odd slots).
 
 Lecture slot:
 1) Intro to course and to computational thinking
